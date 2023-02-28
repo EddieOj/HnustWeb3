@@ -6,7 +6,6 @@ com\lixna\sgninsys\service\impl\ClassLessonServiceImpl.class
 com\lixna\sgninsys\controller\LessonController.class
 com\lixna\sgninsys\service\CheckinRecService.class
 com\lixna\sgninsys\service\impl\UserServiceImpl.class
-com\lixna\sgninsys\entity\UserDto.class
 com\lixna\sgninsys\mapper\CheckinMapper.class
 com\lixna\sgninsys\controller\UserController.class
 com\lixna\sgninsys\config\jwt\JwtFilter.class

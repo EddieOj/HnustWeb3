@@ -23,6 +23,7 @@ D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\LessonService.ja
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\entity\Connection.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\config\jwt\JwtUtil.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\impl\ClassLessonServiceImpl.java
+D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\entity\vo\ClassDto.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\common\ResultCode.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\ClassLessonService.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\impl\ClassServiceImpl.java
@@ -40,7 +41,7 @@ D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\mapper\CheckinMapper.jav
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\config\jwt\CustomToken.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\CheckinService.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\impl\LessonServiceImpl.java
-D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\entity\UserDto.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\mapper\LessonMapper.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\entity\User.java
 D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\service\impl\CheckinServiceImpl.java
+D:\Workplace\HNUSTWeb3\src\main\java\com\lixna\sgninsys\entity\vo\UserDto.java

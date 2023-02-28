@@ -40,12 +40,12 @@ public class Class implements Serializable {
     @TableField(value = "created_at",fill = FieldFill.INSERT)
     private Date createdAt;
 
-    @TableField(value = "updated_at",fill = FieldFill.UPDATE)
+    @TableField(value = "updated_at",fill = FieldFill.INSERT_UPDATE)
     private Date updatedAt;
 
     @TableField("deleted")
     @TableLogic
-    private Date deleted;
+    private Integer deleted;
 
 
 }

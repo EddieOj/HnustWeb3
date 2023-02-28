@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement(proxyTargetClass = true)
-@MapperScan("com.anhuai.model.mapper")
+@MapperScan("com.lixna.sgninsys.mapper")
 public class MyBatisPlusConfig {
 
 
