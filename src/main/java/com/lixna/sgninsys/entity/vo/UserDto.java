@@ -20,12 +20,13 @@ import java.io.Serializable;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@ApiModel(value="用户登录对象", description="")
+@ApiModel(value = "用户登录对象", description = "")
 public class UserDto implements Serializable {
     @ApiModelProperty(value = "电话")
     @NotEmpty(message = "电话不能为空！")
-private String phone;
+    private String phone;
+
     @ApiModelProperty(value = "密码")
     @NotEmpty(message = "密码不能为空！")
-private String password;
+    private String password;
 }
