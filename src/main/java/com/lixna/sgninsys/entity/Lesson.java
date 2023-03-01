@@ -1,8 +1,9 @@
 package com.lixna.sgninsys.entity;
 
-import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.*;
+
 import java.util.Date;
-import com.baomidou.mybatisplus.annotation.TableId;
+
 import java.io.Serializable;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -33,11 +34,15 @@ public class Lesson implements Serializable {
 
     private Integer lessonCreatorId;
 
+    @TableField(value = "created_at",fill = FieldFill.INSERT)
     private Date createdAt;
 
+    @TableField(value = "updated_at",fill = FieldFill.INSERT_UPDATE)
     private Date updatedAt;
 
-    private Date deletedAt;
+    @TableField("deleted")
+    @TableLogic
+    private Integer deleted;
 
 
 }
